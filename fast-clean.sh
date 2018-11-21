@@ -1,9 +1,11 @@
 #!/bin/bash
 echo ""
-echo "#Atualizando o repositório#"
+echo "#Atualiza o repositório e esvazia a lixeira#"
+sudo rm -rf /root/fast-clean/fast-clean-update
+sudo rm -rf /home/$USER/fast-clean/fast-clean-update
+sudo rm -rf /root/fast-clean/fast-clean-update
 sudo rm -rf /home/$USER/.local/share/Trash/files/*
 sudo rm -rf /root/.local/share/Trash
-sudo rm -rf /root/fast-clean/fast-clean-update
 echo ""
 sudo git clone https://github.com/oitavohacker/fast-clean.git -v $nome fast-clean-update
 cd fast-clean-update
