@@ -1,6 +1,6 @@
 #!/bin/bash
 echo ""
-# "limpeza de arquivos inuteis"
+# limpeza de arquivos inúteis
 echo ""
 echo "#Analizando o Sistema#"
 echo ""
