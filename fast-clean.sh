@@ -61,6 +61,10 @@ echo ""
 echo "*Reparado*"
 sleep 1
 echo ""
+echo "#Atualizando o repositório"
+echo ""
+sudo git clone https://github.com/oitavohacker/fast-clean.git
+echo ""
 sudo apt-get install espeak && sudo apt-get install figlet && sudo apt-get install cmatrix
 sudo espeak "oitavohacker"
 echo ""
