@@ -7,8 +7,7 @@ sudo rm -rf /root/fast-clean/fast-clean-update
 echo ""
 sudo git clone https://github.com/oitavohacker/fast-clean.git -v $nome fast-clean-update
 cd fast-clean-update
-sudo ls
-chmod 777 fast-clean.sh
+sudo chmod 777 fast-clean.sh
 echo ""
 echo "#Analizando o Sistema#"
 echo ""
