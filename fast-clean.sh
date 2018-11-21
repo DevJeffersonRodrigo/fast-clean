@@ -1,6 +1,6 @@
 #!/bin/bash
 echo ""
-echo "#Atualiza o repositório e esvazia a lixeira#"
+echo "#Começaremos atualizando os repositórios e esvaziando a lixeira#"
 sudo rm -rf /root/fast-clean/fast-clean-update
 sudo rm -rf /home/$USER/fast-clean/fast-clean-update
 sudo rm -rf /root/fast-clean/fast-clean-update
