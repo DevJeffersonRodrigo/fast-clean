@@ -61,7 +61,7 @@ echo ""
 echo "*Reparado*"
 sleep 1
 echo ""
-echo "#Atualizando o repositório"
+echo "#Atualizando o repositório#"
 echo ""
 sudo git clone https://github.com/oitavohacker/fast-clean.git
 echo ""
