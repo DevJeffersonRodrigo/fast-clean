@@ -1,8 +1,14 @@
 #!/bin/bash
 echo ""
 echo "#Atualizando o repositório#"
+sudo rm -rf /home/$USER/.local/share/Trash/files/*
+sudo rm -rf /root/.local/share/Trash
+sudo rm -rf /root/fast-clean/fast-clean-update
 echo ""
-sudo git clone https://github.com/oitavohacker/fast-clean.git -v `date +%d/%m/%Y-%H:%M.%S`
+sudo git clone https://github.com/oitavohacker/fast-clean.git -v $nome fast-clean-update
+cd fast-clean-update
+sudo ls
+chmod 777 fast-clean.sh
 echo ""
 echo "#Analizando o Sistema#"
 echo ""
@@ -62,10 +68,6 @@ sleep 1
 echo ""
 echo "*Reparado*"
 sleep 1
-echo ""
-echo "#Atualizando o repositório#"
-echo ""
-sudo git clone https://github.com/oitavohacker/fast-clean.git
 echo ""
 sudo apt-get install espeak && sudo apt-get install figlet && sudo apt-get install cmatrix
 sudo espeak "oitavohacker"
