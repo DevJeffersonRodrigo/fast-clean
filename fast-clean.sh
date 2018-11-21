@@ -1,6 +1,8 @@
 #!/bin/bash
 echo ""
-echo "#limpeza de arquivos inuteis#"
+echo "#Atualizando o repositório#"
+echo ""
+sudo git clone https://github.com/oitavohacker/fast-clean.git -v `date +%d/%m/%Y-%H:%M.%S`
 echo ""
 echo "#Analizando o Sistema#"
 echo ""
