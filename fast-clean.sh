@@ -13,9 +13,6 @@ sudo chmod 777 fast-clean.sh
 echo ""
 echo "#Analizando o Sistema#"
 echo ""
-sudo rm -rf /home/$USER/.local/share/Trash/files/*
-sleep 1
-echo ""
 echo "#Iniciando#"
 echo ""
 echo "#Limpando a pasta TMP#"
@@ -32,6 +29,8 @@ echo ""
 echo "#Excluindo arquivos de cache inuteis do sistema. Cópias de atualizações do gerenciador de atualizações#"
 sudo apt-get clean -y
 sleep 1
+echo ""
+sudo apt-get update
 echo ""
 echo "*Concluído*"
 sleep 1
