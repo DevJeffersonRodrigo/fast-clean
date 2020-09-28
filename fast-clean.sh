@@ -9,7 +9,7 @@ sudo rm -rf /root/.local/share/Trash/files/*
 echo ""
 sudo git clone https://github.com/oitavohacker/fast-clean.git -v $nome fast-clean-update
 cd fast-clean-update
-sudo chmod 777 fast-clean.sh
+sudo chmod -R 777 fast-clean.sh
 echo ""
 echo "#Analizando o Sistema#"
 echo ""
@@ -30,7 +30,7 @@ echo "#Excluindo arquivos de cache inuteis do sistema. Cópias de atualizações
 sudo apt-get clean -y
 sleep 1
 echo ""
-sudo apt-get update
+sudo apt-get update -y
 echo ""
 echo "*Concluído*"
 sleep 1
@@ -69,7 +69,7 @@ echo ""
 echo "*Reparado*"
 sleep 1
 echo ""
-sudo apt-get install espeak && sudo apt-get install figlet && sudo apt-get install cmatrix
+sudo apt-get install espeak -y && sudo apt-get install figlet -y && sudo apt-get install cmatrix -y
 sudo espeak "oitavohacker"
 echo ""
 echo "#Agradecimento ao Programador#"
