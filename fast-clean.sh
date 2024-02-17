@@ -70,10 +70,10 @@ echo "*Reparado*"
 sleep 1
 echo ""
 sudo apt-get install espeak -y && sudo apt-get install figlet -y && sudo apt-get install cmatrix -y
-sudo espeak "oitavohacker"
+sudo espeak "devjeffersonrodrigo"
 echo ""
 echo "#Agradecimento ao Programador#"
-sudo figlet "OITAVO HACKER"
+sudo figlet "DEV JEFFERSON RODRIGO"
 sleep 5
 echo "#Parabéns, a manutenção do seu computador foi 100% Concluida#"
 echo ""
