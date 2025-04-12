@@ -7,7 +7,7 @@ sudo rm -rf /root/fast-clean/fast-clean-update
 sudo rm -rf /home/$USER/.local/share/Trash/files/*
 sudo rm -rf /root/.local/share/Trash/files/*
 echo ""
-sudo git clone https://github.com/oitavohacker/fast-clean.git -v $nome fast-clean-update
+sudo git clone https://github.com/DevJeffersonRodrigo/fast-clean.git -v $nome fast-clean-update
 cd fast-clean-update
 sudo chmod -R 777 fast-clean.sh
 echo ""
